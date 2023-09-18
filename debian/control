@@ -1,0 +1,50 @@
+Source: rust-bindgen-cli
+Section: FIXME-IN-THE-SOURCE-SECTION
+Priority: optional
+Build-Depends: debhelper (>= 12),
+ dh-cargo (>= 25),
+ cargo:native,
+ rustc:native,
+ libstd-rust-dev,
+ librust-bindgen-0.66.1+--cli-dev,
+ librust-bindgen-0.66.1+default-dev,
+ librust-bindgen-0.66.1+experimental-dev,
+ librust-bindgen-0.66.1+logging-dev,
+ librust-bindgen-0.66.1+runtime-dev,
+ librust-bindgen-0.66.1+which-rustfmt-dev,
+ librust-clap-4+default-dev,
+ librust-clap-4+derive-dev,
+ librust-clap-complete-4+default-dev,
+ librust-env-logger-0.10+default-dev,
+ librust-log-0.4+default-dev,
+ librust-shlex-1+default-dev
+Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+Uploaders:
+ Matthias Geiger <werdahias@riseup.net>
+Standards-Version: 4.6.1
+Vcs-Git: https://salsa.debian.org/rust-team/debcargo-conf.git [src/bindgen-cli]
+Vcs-Browser: https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bindgen-cli
+Homepage: https://rust-lang.github.io/rust-bindgen/
+X-Cargo-Crate: bindgen-cli
+Rules-Requires-Root: no
+
+Package: bindgen
+Architecture: any
+Multi-Arch: allowed
+Section: utils
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
+ ${cargo:Depends}
+Recommends:
+ ${cargo:Recommends}
+Suggests:
+ ${cargo:Suggests}
+Provides:
+ ${cargo:Provides}
+Built-Using: ${cargo:Built-Using}
+XB-X-Cargo-Built-Using: ${cargo:X-Cargo-Built-Using}
+Description: Automatically generate Rust FFI bindings to C and C++ libraries
+ bindgen-cli can automatically generates Rust FFI bindings to C and C+
+ + libraries.
+ The executable and the binary package are named bindgen.

@@ -1,0 +1,13 @@
+rust-bindgen-cli (0.66.1-1) experimental; urgency=medium
+
+  * Team upload.
+  * Package bindgen-cli 0.66.1 from crates.io using debcargo 2.6.0
+  * This package takes over the "bindgen" binary package from rust-bindgen,
+    as upstream has moved the command line interface to it's own crate.
+
+  [ Matthias Geiger ]
+  * Package bindgen-cli 0.66.1 from crates.io using debcargo 2.6.0
+  * Initial release. (Closes: ##1051675)
+  * Fix sections and binary package name.
+
+ -- Peter Michael Green <plugwash@debian.org>  Mon, 18 Sep 2023 21:37:03 +0000
