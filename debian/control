@@ -1,5 +1,5 @@
 Source: rust-bindgen-cli
-Section: FIXME-IN-THE-SOURCE-SECTION
+Section: rust
 Priority: optional
 Build-Depends: debhelper (>= 12),
  dh-cargo (>= 25),

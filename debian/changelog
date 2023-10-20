@@ -1,3 +1,10 @@
+rust-bindgen-cli (0.66.1-4) unstable; urgency=medium
+
+  * Fix typo in debcargo.toml to set section for source package (Closes:
+    #1052453) 
+
+ -- Matthias Geiger <werdahias@riseup.net>  Fri, 20 Oct 2023 17:22:04 +0200
+
 rust-bindgen-cli (0.66.1-3) unstable; urgency=medium
 
   * Team upload.

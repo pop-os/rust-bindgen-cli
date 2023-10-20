@@ -8,5 +8,5 @@ description = """
 bindgen-cli can automatically generates Rust FFI bindings to C and C++ libraries.
 The executable and the binary package are named bindgen.
 """
-[packages.source]
+[source]
 section = "rust"
