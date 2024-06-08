@@ -1,3 +1,9 @@
+rust-bindgen-cli (0.66.1-6) unstable; urgency=medium
+
+  * Rebuild using rust-bindgen v0.66.1-6 (Closes: #1069047)
+
+ -- NoisyCoil <noisycoil@tutanota.com>  Sun, 09 Jun 2024 00:12:28 +0200
+
 rust-bindgen-cli (0.66.1-4) unstable; urgency=medium
 
   * Fix typo in debcargo.toml to set section for source package (Closes:

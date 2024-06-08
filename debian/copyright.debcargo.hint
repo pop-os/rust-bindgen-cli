@@ -21,8 +21,8 @@ Comment:
 
 Files: debian/*
 Copyright:
- 2023 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
- 2023 Matthias Geiger <werdahias@riseup.net>
+ 2023-2024 Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
+ 2023-2024 Matthias Geiger <werdahias@riseup.net>
 License: BSD-3-Clause
 
 License: BSD-3-Clause
