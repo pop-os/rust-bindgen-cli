@@ -5,8 +5,11 @@ bin_name = "bindgen"
 section="utils"
 summary = "Automatically generate Rust FFI bindings to C and C++ libraries"
 description = """
-bindgen-cli can automatically generates Rust FFI bindings to C and C++ libraries.
+bindgen-cli can automatically generate Rust FFI bindings to C and
+C++ libraries.
 The executable and the binary package are named bindgen.
 """
+depends = ["libclang-dev"]
+recommends = ["rustfmt"]
 [source]
 section = "rust"

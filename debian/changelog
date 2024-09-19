@@ -1,3 +1,13 @@
+rust-bindgen-cli (0.66.1-7) unstable; urgency=medium
+
+  * Team upload.
+  * Package bindgen-cli 0.66.1 from crates.io using debcargo 2.6.1
+  * Make bindgen depend on libclang-dev (Closes: #1070241)
+  * Make bindgen recommend rustfmt
+  * Fix typo and newline in long description
+
+ -- NoisyCoil <noisycoil@tutanota.com>  Thu, 19 Sep 2024 12:22:48 +0200
+
 rust-bindgen-cli (0.66.1-6) unstable; urgency=medium
 
   * Rebuild using rust-bindgen v0.66.1-6 (Closes: #1069047)

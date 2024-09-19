@@ -35,9 +35,11 @@ Section: utils
 Depends:
  ${misc:Depends},
  ${shlibs:Depends},
- ${cargo:Depends}
+ ${cargo:Depends},
+ libclang-dev
 Recommends:
- ${cargo:Recommends}
+ ${cargo:Recommends},
+ rustfmt
 Suggests:
  ${cargo:Suggests}
 Provides:
@@ -45,6 +47,6 @@ Provides:
 Built-Using: ${cargo:Built-Using}
 XB-X-Cargo-Built-Using: ${cargo:X-Cargo-Built-Using}
 Description: Automatically generate Rust FFI bindings to C and C++ libraries
- bindgen-cli can automatically generates Rust FFI bindings to C and C+
- + libraries.
+ bindgen-cli can automatically generate Rust FFI bindings to C and
+ C++ libraries.
  The executable and the binary package are named bindgen.
