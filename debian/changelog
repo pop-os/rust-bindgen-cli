@@ -1,3 +1,10 @@
+rust-bindgen-cli (0.70.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Package bindgen-cli 0.70.1 from crates.io using debcargo 2.7.4
+
+ -- Peter Michael Green <plugwash@debian.org>  Thu, 21 Nov 2024 19:28:09 +0000
+
 rust-bindgen-cli (0.70.1-1) experimental; urgency=medium
 
   * Team upload.
