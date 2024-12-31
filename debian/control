@@ -14,7 +14,7 @@ Build-Depends: debhelper-compat (= 13),
  librust-clap-4+default-dev,
  librust-clap-4+derive-dev,
  librust-clap-complete-4+default-dev,
- librust-env-logger-0.10+default-dev,
+ librust-env-logger-0.11+default-dev,
  librust-log-0.4+default-dev,
  librust-shlex-1+default-dev
 Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
