@@ -10,12 +10,13 @@
 # See Cargo.toml.orig for the original contents.
 
 [package]
-edition = "2018"
+edition = "2021"
 rust-version = "1.70.0"
 name = "bindgen-cli"
-version = "0.70.1"
+version = "0.71.1"
 authors = ["The rust-bindgen project contributors"]
 build = false
+autolib = false
 autobins = false
 autoexamples = false
 autotests = false
@@ -47,20 +48,13 @@ name = "bindgen"
 path = "main.rs"
 
 [dependencies.bindgen]
-version = "=0.70.1"
+version = "0.71.1"
 features = [
     "__cli",
     "experimental",
     "prettyplease",
 ]
 default-features = false
-
-[dependencies.clap]
-version = "4"
-features = ["derive"]
-
-[dependencies.clap_complete]
-version = "4"
 
 [dependencies.env_logger]
 version = "0.10.0"
@@ -69,6 +63,9 @@ optional = true
 [dependencies.log]
 version = "0.4"
 optional = true
+
+[dependencies.proc-macro2]
+version = "1"
 
 [dependencies.shlex]
 version = "1"
@@ -89,3 +86,7 @@ logging = [
 prettyplease = ["bindgen/prettyplease"]
 runtime = ["bindgen/runtime"]
 static = ["bindgen/static"]
+
+[lints.clippy]
+
+[lints.rust]
