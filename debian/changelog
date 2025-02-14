@@ -1,3 +1,11 @@
+rust-bindgen-cli (0.71.1-4) unstable; urgency=medium
+
+  * Package bindgen-cli 0.71.1 from crates.io using debcargo 2.7.6
+  * Rebuild against librust-bindgen-dev 0.71.1-4 in unstable to fix
+    unsafe_op_in_unsafe_fn
+
+ -- NoisyCoil <noisycoil@tutanota.com>  Fri, 14 Feb 2025 23:53:26 +0100
+
 rust-bindgen-cli (0.71.1-3) experimental; urgency=medium
 
   * Package bindgen-cli 0.71.1 from crates.io using debcargo 2.7.6
