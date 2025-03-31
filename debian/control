@@ -2,8 +2,8 @@ Source: rust-bindgen-cli
 Section: rust
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
- dh-sequence-cargo,
- cargo:native,
+ dh-sequence-cargo
+Build-Depends-Arch: cargo:native,
  rustc:native (>= 1.70.0),
  libstd-rust-dev,
  librust-bindgen-0.71+--cli-dev (>= 0.71.1-~~),
