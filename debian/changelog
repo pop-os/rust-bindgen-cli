@@ -1,3 +1,10 @@
+rust-bindgen-cli (0.71.1-6) unstable; urgency=medium
+
+  * Package bindgen-cli 0.71.1 from crates.io using debcargo 2.7.8
+  * Unset M-A: allowed for bindgen
+
+ -- NoisyCoil <noisycoil@tutanota.com>  Sat, 24 May 2025 22:22:47 +0200
+
 rust-bindgen-cli (0.71.1-5) unstable; urgency=medium
 
   * Package bindgen-cli 0.71.1 from crates.io using debcargo 2.7.8

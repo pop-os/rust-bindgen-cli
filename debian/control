@@ -28,7 +28,6 @@ Rules-Requires-Root: no
 
 Package: bindgen
 Architecture: any
-Multi-Arch: allowed
 Section: utils
 Depends:
  ${misc:Depends},
