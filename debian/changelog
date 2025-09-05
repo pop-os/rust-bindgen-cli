@@ -1,3 +1,11 @@
+rust-bindgen-cli (0.72.1-1) unstable; urgency=medium
+
+  * Package bindgen-cli 0.72.1 from crates.io using debcargo 2.7.10
+  * Upload to unstable
+  * Change my address to @debian.org
+
+ -- NoisyCoil <noisycoil@debian.org>  Fri, 05 Sep 2025 20:25:17 +0200
+
 rust-bindgen-cli (0.72.0-1) experimental; urgency=medium
 
   * Package bindgen-cli 0.72.0 from crates.io using debcargo 2.7.8

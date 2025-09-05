@@ -1,5 +1,5 @@
 overlay = "."
-uploaders = ["Matthias Geiger <werdahias@riseup.net>", "NoisyCoil <noisycoil@tutanota.com>"]
+uploaders = ["Matthias Geiger <werdahias@riseup.net>", "NoisyCoil <noisycoil@debian.org>"]
 bin_name = "bindgen"
 [packages.bin]
 section="utils"
