@@ -1,6 +1,7 @@
 #!/usr/bin/make -f
 %:
-	dh $@ --buildsystem cargo
+	dh $@
 
-override_dh_auto_test:
-	dh_auto_test -- test --all
+override_dh_auto_clean:
+	ischroot || make vendor
+

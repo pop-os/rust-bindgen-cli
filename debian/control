@@ -2,19 +2,8 @@ Source: rust-bindgen-cli
 Section: rust
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
- dh-sequence-cargo
 Build-Depends-Arch: cargo:native,
  rustc:native (>= 1.70.0),
- libstd-rust-dev,
- librust-bindgen-0.72+--cli-dev (>= 0.72.1-~~),
- librust-bindgen-0.72+experimental-dev (>= 0.72.1-~~),
- librust-bindgen-0.72+logging-dev (>= 0.72.1-~~),
- librust-bindgen-0.72+prettyplease-dev (>= 0.72.1-~~),
- librust-bindgen-0.72+runtime-dev (>= 0.72.1-~~),
- librust-env-logger-0.11+default-dev,
- librust-log-0.4+default-dev,
- librust-proc-macro2-1+default-dev (>= 1.0.80-~~),
- librust-shlex-1+default-dev
 Maintainer: Debian Rust Maintainers <pkg-rust-maintainers@alioth-lists.debian.net>
 Uploaders:
  Matthias Geiger <werdahias@riseup.net>,
