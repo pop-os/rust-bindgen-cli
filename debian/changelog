@@ -1,3 +1,9 @@
+rust-bindgen-cli (0.72.1-1pop0) jammy; urgency=medium
+
+  * Pop!_OS backport
+
+ -- Jeremy Soller <jeremy@system76.com>  Wed, 04 Feb 2026 09:31:13 -0700
+
 rust-bindgen-cli (0.72.1-1) unstable; urgency=medium
 
   * Package bindgen-cli 0.72.1 from crates.io using debcargo 2.7.10
